@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0129/G/v1
+canonical_location: https://kanripo.org/bkk/KR6j0129/G/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 一字頂輪王瑜伽經
+  identifiers:
+    krp: KR6j0129
+    cbeta: G052n1222
+    cbeta_old_id: G052n1222
+    authorityid: CA0008091
+    json_key: G1222
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G052/G052n1222.xml
+    old_id: G052n1222
+  edition:
+    short: G
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0129_000-G.yaml, hash: 'sha256:43daf1bfc561b4ad1296c9cd2026403603ad5b7e888bd2b48c96d9fa86cfe37e'}
+  - {seq: 1, filename: KR6j0129_001-G.yaml, hash: 'sha256:72f20935407289981af08e23c90040b1ee1102edd9bcff498742c4efa8fdff5e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0129_000-G.markers.yaml, hash: 'sha256:ccdde6c7cb42b95663142fd9b7ba25bca2e2db173ad92df8ebc9341d5cbab03d'}
+  - {seq: 1, role: markers, filename: assets/KR6j0129_001-G.markers.yaml, hash: 'sha256:d80e48ad656f93814b33e95c4aaeb3726faf438f72ba4cff65e6e2ecd4a6ff33'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0129_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 2647
+  label: 一字頂輪王瑜伽經
+  type: juan
+  level: 1
+hash: sha256:845b812201dcb4cfbaed91d98958e761cc9149839135e3c7ee8996030c8ba4df

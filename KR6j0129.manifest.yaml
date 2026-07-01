@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6j0129/v1
+canonical_location: https://kanripo.org/bkk/KR6j0129/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 一字頂輪王瑜伽經
+  identifiers:
+    alt_id:
+    - G052n1222
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G052/G052n1222.xml
+    old_id: G052n1222
+  edition:
+    short: bkk
+editions:
+- short: 佛教
+  label: 佛教
+  source_xml_id: wit.orig
+- short: G
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0129_000.yaml, hash: 'sha256:43daf1bfc561b4ad1296c9cd2026403603ad5b7e888bd2b48c96d9fa86cfe37e'}
+  - {seq: 1, filename: KR6j0129_001.yaml, hash: 'sha256:27295f4614d79decaee3327bafc48de38c0aaa6d2616269f1a17c11def7dda88'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0129_001.markers.yaml, hash: 'sha256:802660eb60088551452ad067cbcac586eb4ababe58ce5eb1fc841c9612bccfdf'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0129_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 2647
+  label: 一字頂輪王瑜伽經
+  type: juan
+  level: 1
+hash: sha256:5d5b0970972ea7a8b937f19a3a3d0e51bd9a017a5bf4e31f25410f900fe2195f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
