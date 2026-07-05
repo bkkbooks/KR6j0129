@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0129_000.yaml, hash: 'sha256:43daf1bfc561b4ad1296c9cd2026403603ad5b7e888bd2b48c96d9fa86cfe37e'}
-  - {seq: 1, filename: KR6j0129_001.yaml, hash: 'sha256:27295f4614d79decaee3327bafc48de38c0aaa6d2616269f1a17c11def7dda88'}
+  - {seq: 1, filename: KR6j0129_001.yaml, hash: 'sha256:72f20935407289981af08e23c90040b1ee1102edd9bcff498742c4efa8fdff5e'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0129_001.markers.yaml, hash: 'sha256:802660eb60088551452ad067cbcac586eb4ababe58ce5eb1fc841c9612bccfdf'}
+  - {seq: 0, role: markers, filename: assets/KR6j0129_000.markers.yaml, hash: 'sha256:5ca816be6cd7d156e9600ef4da3e516e1f336086a082269b325cf2af17acf038'}
+  - {seq: 1, role: markers, filename: assets/KR6j0129_001.markers.yaml, hash: 'sha256:1988cd78fbc786aa84e00617f21aa38a06d7ea2ac911d965b07adf168a6335fe'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 一字頂輪王瑜伽經
   type: juan
   level: 1
-hash: sha256:5d5b0970972ea7a8b937f19a3a3d0e51bd9a017a5bf4e31f25410f900fe2195f
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:9973b42e4a2722691c808a19c6aa405fd64885f75f96e8426fdb5beed763250b
